@@ -3,6 +3,8 @@
 # from https://en.wikipedia.org/wiki/Chudnovsky_algorithm
 # https://github.com/microice333/Python-projects/blob/master/n_digit_pi.py
 
+# smart ass :-)
+
 import decimal
 def compute_pi(n):
     decimal.getcontext().prec = n + 1
