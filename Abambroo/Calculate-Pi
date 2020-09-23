@@ -1,0 +1,18 @@
+how to calculate pi:
+
+consider the diameter of a circle is 1
+
+pi is ratio of diameter to circumference.
+
+split circle up into many segments (eg 360)
+
+consider each segment a triangle
+
+two sides (a & b) are length 0.5 each. Angle (C) is 360/no of segments
+calculate the other length (c).
+
+c² = a² + b² - 2ab cos C
+
+multiply the length (c) by the number of segments (eg 360).
+
+The more segments you have the nearer to pi you will get.
